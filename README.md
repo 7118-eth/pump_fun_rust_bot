@@ -96,6 +96,66 @@ If no config path is provided, the bot will look for `bots/bot-sniper-1-geyser.y
 - **Cleanup**: Account cleanup utilities
 - **Utils**: Configuration and logging utilities
 
+## Project Status
+
+This project is currently in **early development stage**. Here's the status of each component:
+
+### Implemented Components ✅
+
+- **Core Architecture**: The overall structure and module organization is in place
+- **Configuration**: The YAML-based configuration system is fully implemented
+- **Logging**: Basic logging functionality works with console output
+- **LogsListener**: Basic Solana WebSocket listener structure for monitoring token creation events
+
+### Partially Implemented Components ⚠️
+
+- **Token Monitoring**: Basic event subscription framework exists, but needs log parsing improvements
+- **PumpTrader**: The main trading orchestration is structured, but missing transaction handlers
+- **TokenBuyer**: Stub implementation exists but requires transaction building and execution logic
+- **TokenSeller**: Similar to TokenBuyer, requires actual implementation of selling transactions
+- **Priority Fee Management**: Structure defined but implementation is incomplete
+
+### Missing Components ❌
+
+- **Geyser Integration**: The Geyser module is empty and needs to be implemented
+- **Bonding Curve Manager**: Placeholder only, needs actual curve calculations
+- **CleanupManager**: Placeholder structure only, functionality missing
+- **Advanced Trading Logic**: Timing strategies, token age verification
+- **Error Recovery**: Robust error handling and recovery mechanisms
+- **Test Suite**: Unit and integration tests
+
+## Roadmap
+
+### Phase 1: Core Functionality
+- [x] Project structure and configuration
+- [x] Basic logging and monitoring framework
+- [ ] Complete LogsListener implementation
+- [ ] Implement token buying transaction logic
+- [ ] Implement token selling transaction logic
+
+### Phase 2: Advanced Features
+- [ ] Geyser API integration 
+- [ ] Block listener implementation
+- [ ] Bonding curve calculations
+- [ ] Priority fee optimization
+- [ ] Token cleanup functionality
+
+### Phase 3: Stability & Optimization
+- [ ] Robust error handling and recovery
+- [ ] Performance optimizations
+- [ ] Comprehensive test suite
+- [ ] Documentation improvements
+
+## Contributing
+
+Contributions are welcome! Here are the top priorities if you'd like to help:
+
+1. Complete the token log parsing in `logs_listener.rs`
+2. Implement transaction building in `buyer.rs` and `seller.rs`
+3. Develop the bonding curve calculations in `curve.rs`
+4. Implement the Geyser integration
+5. Add proper tests for each module
+
 ## Warning ⚠️
 
 Trading cryptocurrency involves significant risk. This bot is provided for educational purposes only. Always:
