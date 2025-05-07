@@ -1,10 +1,44 @@
-# Pump Fun Rust Bot 🚀
+# pump.fun Liberation 🚀
 
-A high-performance Solana trading bot for the Pump.fun platform, written in Rust.
+A high-performance Solana trading bot for the Pump.fun platform, written in Rust that prioritizes user sovereignty and democratized trading access.
 
 ## Overview
 
 This bot is designed to monitor and trade tokens on the Pump.fun platform on Solana. It provides various strategies for token detection, buying, and selling with configurable parameters for different trading styles.
+
+## Project Philosophy
+
+In a space where most trading solutions are centralized, expensive, or potentially malicious:
+
+- **User Sovereignty**: You maintain complete control over your private keys and funds
+- **Open Source**: Fully transparent codebase with no hidden functionality
+- **Self-Custody**: Unlike centralized alternatives, your funds remain in your control at all times
+- **Free Access**: No percentage fees, no subscriptions, democratizing access to high-performance trading
+- **Security First**: Designed to protect users from the "dark forest" of exploitative trading tools
+- **Decentralized**: Run the bot on your own hardware with your own RPC endpoints
+
+We believe the Solana ecosystem needs more trustless tools that don't require users to sacrifice security for performance.
+
+## Disclaimer ⚠️
+
+**IMPORTANT:** This project is in a **very early development stage** and is largely untested. The dependencies may not be up-to-date, and the code requires significant work before being production-ready.
+
+### Current Status
+This is an experimental implementation with limited functionality. Use at your own risk and only with funds you can afford to lose.
+
+### Future Vision
+The long-term vision for pump.fun Liberation is to evolve into a comprehensive open-source solution with:
+
+- Trusted compute environments to ensure security
+- Optional cloud-hosted services (paid) for non-technical users
+- Maintained philosophical commitment to democratization
+
+### Mission Statement
+Our mission is to democratize access to trading opportunities that have historically been limited to insiders and those with technical expertise. While pump.fun and similar platforms may ultimately resemble wash trading or casino-like environments with zero-sum outcomes, we believe everyone deserves equal access to participate according to their own decisions.
+
+By leveling the playing field, we hope to eventually reduce the economic incentives of such trading environments and help the crypto space evolve beyond speculative activities toward more productive use cases.
+
+**Remember:** No financial gains are guaranteed. Use responsibly.
 
 ## Features
 
